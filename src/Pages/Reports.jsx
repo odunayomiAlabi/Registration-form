@@ -11,7 +11,8 @@ function Reports() {
         <Layout>
       <Sider className='sidebar'>
       <img src={img} alt="" />
-        HostBeak</Sider>
+        HostBeak
+        </Sider>
      </Layout>
 
      <div>
