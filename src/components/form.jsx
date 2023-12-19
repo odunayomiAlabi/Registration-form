@@ -49,8 +49,8 @@ export default function Form() {
     <section className="signup">
       <div>
         <img src={bgimg} alt="" />
-        <div class="text">
-          <h2 class="img-text">
+        <div className="text">
+          <h2 className="img-text">
             {" "}
             Building exceptional services with Back Office Support and Business
             Perfomance

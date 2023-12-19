@@ -9,68 +9,53 @@ import { LiaFileInvoiceSolid } from "react-icons/lia";
 import { TbReport } from "react-icons/tb";
 
 
-export const sidebar =[
+export const Sidebar =[
     {
         title:'Welcome',
         path:'/',
+        key:1,
         icon: <LiaSpaceShuttleSolid /> 
     },
     {
         title:'Dashboard',
         path:'/',
+        key:2,
         icon: <LuLayoutDashboard />
     },
     {
         title:'Sales',
         path:'/',
+        key:3,
         icon: <TfiWallet />
     },
     {
         title:'Purchases',
         path:'/',
+        key:4,
         icon: <FiShoppingCart />
     },
     {
         title:'Accounting',
         path:'/',
+        key:5,
         icon: <LuFileBarChart /> 
     },
     {
         title:'Banking',
         path:'/',
+        key:6,
         icon: <BsBank />
     },
     {
         title:'Payroll',
         path:'/',
+        key:7,
         icon: <LiaFileInvoiceSolid />
     },
     {
         title:'Reports',
         path:'/',
+        key:8,
         icon: <TbReport /> 
     },
 ]
-
-
-
-// import React from 'react'
-// import {Layout} from 'antd';
-// import bgimg from "../assets/image-2.jpg";
-
-
-// const {Header, Sider} = Layout;
-// function sidebar() {
-//     return(
-//       <>
-//         <Layout>
-//       <Sider className='sidebar'>
-//       <img src={bgimg} alt="" />
-//         HostBeak</Sider>
-//      </Layout>
-//       </>
-//     )
-// }
-
-
-// export default sidebar
